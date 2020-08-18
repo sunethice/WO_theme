@@ -1,0 +1,76 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+$primary : #004EA5;
+$secondary: #F0F0F0;
+$secondary-dark: #EFEFEF;
+$t : red;
+
+html, body{
+    height:100%;
+    background-color: yellow;
+}
+
+#wrapper-navbar{
+    min-height: 60px;
+
+    nav{
+        min-height: 60px;
+        background-color: #FFF !important;
+        border-bottom: 2px solid $secondary-dark !important;
+    }
+
+    .header-logo-holder{
+        max-width: 218px !important;
+    }
+
+    .navbar-form-wrapper{
+        display: flex;
+        margin: auto auto auto 193px;
+    
+        .navbar-form-label{
+            color: $primary;
+            font-size: 14px;
+        }
+    
+        .navbar-form-input{
+            background-color: $secondary;
+            height: 31px;
+            width: 288px;
+        }
+    
+        .navbar-form-btn{
+            background-color: $primary;
+            color: #fff;
+            height: 31px;
+            width : 90px;
+        }
+    }
+
+    .contact-wrap{
+        color: $primary;
+    }
+}
+
+#page{
+    height: 100% !important;
+
+    .content-wrap{
+        height: 100% !important;
+        
+        .row{
+            height: 100% !important;
+
+            .home-call-to-action{
+                background-color: $secondary;
+                max-width: 565px;
+                height: 100%;
+            }
+
+            .home-company-marketing{
+                // background-color: blue;
+                max-width: 836px;
+                height: 100px;
+            }
+        }
+    }
+}
