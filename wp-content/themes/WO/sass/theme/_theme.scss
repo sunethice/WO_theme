@@ -7,7 +7,7 @@ $t : red;
 
 html, body{
     height:100%;
-    background-color: yellow;
+    background-color: #fff;
 }
 
 #wrapper-navbar{
@@ -67,9 +67,20 @@ html, body{
             }
 
             .home-company-marketing{
-                // background-color: blue;
-                max-width: 836px;
-                height: 100px;
+                background-color: #fff;
+                max-width: 487px;
+                height: 100% !important;
+                margin: 50px 80px;
+                padding: 0;
+
+                .magento-intro{
+
+                    .intro-breifing {
+                        font-size: 12px;
+                        line-height: 20px;
+                        padding-top: 20px;
+                    }
+                }
             }
         }
     }
